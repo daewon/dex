@@ -7,7 +7,7 @@ def usage():
   sys.exit(1)
 
 def main(argv):
-  if len(argv) < 2: usage()
+  if len(argv) < 3: usage()
 
   fname_len = int(argv["name_len"])
   dir = os.path.abspath(argv["target_dir"])
